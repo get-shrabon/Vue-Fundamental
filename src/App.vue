@@ -1,5 +1,7 @@
 <script setup>
-import Looping from './components/Looping.vue';
+// import ThumbSlider from './components/ThumbSlider.vue';
+// import CustomAccordiun from './components/CustomAccordiun.vue';
+// import Looping from './components/Looping.vue';
 // import CountryFilter from './components/CountryFilter.vue';
 // import StateManagment from './components/StateManagment.vue';
 // import Directive from './components/Directive.vue';
@@ -15,8 +17,10 @@ import Looping from './components/Looping.vue';
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <Looping/>
-<!--  <CountryFilter/>
+  <!--  <CountryFilter/>
+    <ThumbSlider/>
+    <CustomAccordiun/>
+   <Looping/>
   <HelloWorld/>
   <Directive/>
   <StateManagment/> -->
