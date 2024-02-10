@@ -6,6 +6,7 @@
 // import StateManagment from './components/StateManagment.vue';
 // import Directive from './components/Directive.vue';
 // import HelloWorld from './components/HelloWorld.vue'
+import DataFetching from './components/DataFetching.vue';
 </script>
 
 <template>
@@ -17,13 +18,15 @@
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <!--  <CountryFilter/>
+   <!-- <CountryFilter/>
     <ThumbSlider/>
     <CustomAccordiun/>
    <Looping/>
   <HelloWorld/>
   <Directive/>
   <StateManagment/> -->
+  <DataFetching/>
+  
 </template> 
 
 <style scoped>
