@@ -34,7 +34,9 @@ const getUsers = () => {
     type="text "
     v-model="searchData"
   />
-  <button @click="searchData= ''" class="btn  btn-outline btn-info ml-4">Clear</button>
+  <button @click="searchData = ''" class="btn btn-outline btn-info ml-4">
+    Clear
+  </button>
   <ul class="space-y-4">
     <li v-for="(user, index) in getUsers()" :key="index" class="flex flex-col">
       <span>Name: {{ user.name }}</span>
