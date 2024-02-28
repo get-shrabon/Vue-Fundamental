@@ -1,4 +1,6 @@
 <script setup>
+import FormHandle from './components/FormHandle.vue';
+
 // import ThumbSlider from './components/ThumbSlider.vue';
 // import CustomAccordiun from './components/CustomAccordiun.vue';
 // import Looping from './components/Looping.vue';
@@ -6,7 +8,7 @@
 // import StateManagment from './components/StateManagment.vue';
 // import Directive from './components/Directive.vue';
 // import HelloWorld from './components/HelloWorld.vue'
-import DataFetching from './components/DataFetching.vue';
+// import DataFetching from './components/DataFetching.vue';
 </script>
 
 <template>
@@ -24,8 +26,9 @@ import DataFetching from './components/DataFetching.vue';
    <Looping/>
   <HelloWorld/>
   <Directive/>
-  <StateManagment/> -->
-  <DataFetching/>
+  <StateManagment/>
+  <DataFetching/> -->
+  <FormHandle></FormHandle>
   
 </template> 
 

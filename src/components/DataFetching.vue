@@ -37,10 +37,10 @@ const getUsers = () => {
   <button @click="searchData = ''" class="btn btn-outline btn-info ml-4">
     Clear
   </button>
-  <ul class="space-y-4">
-    <li v-for="(user, index) in getUsers()" :key="index" class="flex flex-col">
-      <span>Name: {{ user.name }}</span>
-      <span>Email: {{ user.email }}</span>
+  <ul class="space-y-4 grid grid-cols-3 mt-10 items-start">
+    <li v-for="(user, index) in getUsers()" :key="index" class=" border text-center">
+      <span class="block">Name: {{ user.name }}</span>
+      <span class="block mt-2">Email: {{ user.email }}</span>
     </li>
   </ul>
 </template>
